@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-&u$uv(dbtj+i5!)^%g77df^tko2nj5%o^u9z&9goaod#0v%^)_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','smarttutor-wa.azurewebsites.net/','*']
+#ALLOWED_HOSTS = ['127.0.0.1','smarttutor-wa.azurewebsites.net/','*']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
