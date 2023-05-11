@@ -4,4 +4,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Here's the text of the web page.")
+    return render(request, 'index.html')
